@@ -51,12 +51,12 @@ body {
 }
 
 .results {
-  border-color: lime;
+  color: #fff;
   list-style: none;
   margin: 0;
   padding: 0;
   position: absolute;
-  bottom: 0;
+  bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -107,6 +107,10 @@ footer .logo-footer {
   .stopwatch {
     font-size: 3rem;
     margin-top: -4rem;
+  }
+
+  .results {
+    bottom: 5rem;
   }
 
   .footer {
