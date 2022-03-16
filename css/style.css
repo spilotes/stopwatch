@@ -92,6 +92,24 @@ footer .logo-footer {
 }
 
 @media (max-width: 414px) {
+  .controls {
+    top: 0;
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+    margin-left: -0.5rem;
+  }
+
+  .button {
+    font-size: 1rem;
+    margin: 0 0.7rem;
+  }
+
+  .stopwatch {
+    font-size: 3rem;
+    margin-top: -4rem;
+    margin-left: -4rem;
+  }
+
   .footer {
     height: 5rem;
     font-size: 0.9rem;
