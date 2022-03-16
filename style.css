@@ -51,12 +51,12 @@ body {
 }
 
 .results {
-  border-color: lime;
+  color: #fff;
   list-style: none;
   margin: 0;
   padding: 0;
   position: absolute;
-  bottom: 0;
+  bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -93,7 +93,6 @@ footer .logo-footer {
 
 @media (max-width: 414px) {
   .controls {
-    position: fixed;
     top: 0;
     width: 100%;
     padding: 0.5rem 0.8rem;
@@ -106,8 +105,12 @@ footer .logo-footer {
   }
 
   .stopwatch {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: -4rem;
+  }
+
+  .results {
+    bottom: 5rem;
   }
 
   .footer {
@@ -122,15 +125,15 @@ footer .logo-footer {
   }
 
   footer .powered {
-    margin-top: -1.1rem;
-    margin-left: 15rem;
+    margin-top: -1rem;
+    margin-left: 13.4rem;
   }
 
   footer .logo-footer {
     width: 6rem;
     height: 1.4rem;
     margin-top: -0.2rem;
-    margin-right: 1.2rem;
-    margin-right: 0.3rem;
+    margin-right: 1.1rem;
+    margin-left: 0.1rem;
   }
 } ;
