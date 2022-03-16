@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: linear-gradient(#18acfe, #0166e1);
+  box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.controls {
+  position: fixed;
+  text-align: center;
+  top: 8em;
+  width: 45%;
+  align-items: center;
+  padding: 8px 20px;
+  background-color: #000;
+  margin-left: 55vh;
+  border-radius: 5px;
+}
+
+.button {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 0 0.7em;
+  text-decoration: none;
+  transition: all 300ms ease;
+}
+
+.button:first-child {
+  margin-left: 0;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.button:hover {
+  color: #0166e1;
+}
+
+.stopwatch {
+  font-size: 10rem;
+  height: 100%;
+  line-height: 100vh;
+  text-align: center;
+}
+
+.results {
+  border-color: lime;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer {
+  width: 100%;
+  height: 6.5rem;
+  font-size: 1.2rem;
+  color: #000;
+  display: column;
+  box-shadow: inset 0 2px 7px rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  position: absolute;
+}
+
+footer .copy {
+  margin-left: 7.5rem;
+}
+
+footer .powered {
+  margin-top: -1.4rem;
+  margin-left: 62.5rem;
+}
+
+footer .logo-footer {
+  width: 9.3rem;
+  height: 2rem;
+  float: right;
+  margin-left: 0.3rem;
+  margin-top: -0.3rem;
+  margin-right: 7rem;
+  cursor: pointer;
+}
+
+@media (max-width: 414px) {
+  .footer {
+    height: 5rem;
+    font-size: 0.9rem;
+    bottom: 0;
+    position: fixed;
+  }
+
+  footer .copy {
+    margin-left: 1rem;
+  }
+
+  footer .powered {
+    margin-top: -1.1rem;
+    margin-left: 15rem;
+  }
+
+  footer .logo-footer {
+    width: 6rem;
+    height: 1.4rem;
+    margin-top: -0.2rem;
+    margin-right: 1.2rem;
+    margin-right: 0.3rem;
+  }
+} ;
