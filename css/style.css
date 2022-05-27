@@ -79,7 +79,7 @@ body {
 @media (max-width: 414px) {
   .controls {
     font-size: 1.6rem;
-    top: 0.7rem;
+    top: 0.9rem;
     left: 45%;
     width: 100%;
   }
