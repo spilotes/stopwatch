@@ -84,19 +84,20 @@ body {
   }
 
   .logo {
-    top: 4rem;
-    left: 46%;
+    top: 4.5rem;
+    left: 40%;
     transform: translateX(-46%);
   }
 
   .button {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin: 0 1.5rem;
+    left: 4%;
   }
 
   .stopwatch {
     font-size: 3rem;
-    top: 12rem;
+    top: 20rem;
   }
 
   .results {
