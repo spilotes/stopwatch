@@ -79,13 +79,13 @@ body {
 @media (max-width: 414px) {
   .controls {
     font-size: 1.6rem;
-    top: 0.7rem;
-    left: 4%;
+    top: 0.8rem;
+    left: 24%;
   }
 
   .logo {
     top: 4.5rem;
-    left: 40%;
+    left: 37%;
     transform: translateX(-46%);
   }
 
@@ -101,6 +101,6 @@ body {
   }
 
   .results {
-    bottom: 5rem;
+    bottom: 4rem;
   }
 } ;
