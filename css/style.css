@@ -78,24 +78,25 @@ body {
 
 @media (max-width: 414px) {
   .controls {
+    font-size: 1.6rem;
     top: 0.7rem;
-    left: 10%;
+    left: 4%;
   }
 
   .logo {
     top: 4rem;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 46%;
+    transform: translateX(-46%);
   }
 
   .button {
     font-size: 2rem;
-    margin: 0 2rem;
+    margin: 0 1.5rem;
   }
 
   .stopwatch {
     font-size: 3rem;
-    top: 4rem;
+    top: 12rem;
   }
 
   .results {
