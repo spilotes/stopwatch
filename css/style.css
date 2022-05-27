@@ -80,12 +80,13 @@ body {
   .controls {
     font-size: 1.6rem;
     top: 0.8rem;
-    left: 24%;
+    left: 29%;
+    width: 100%;
   }
 
   .logo {
     top: 4.5rem;
-    left: 37%;
+    left: 43%;
     transform: translateX(-46%);
   }
 
